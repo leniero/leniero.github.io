@@ -26,8 +26,10 @@ img {
 
 .header-work{
     margin-top: 0px;
+    margin-left: 0px;
     font-size: 23px;
 }
+
 
 
 /* Header Styles */
@@ -143,14 +145,6 @@ color: black;
         }
 
        
-        
-  
-  
-
-
-  
-
-
    /* RESIZING HEADER PAGES */
   @media (max-width: 1000px) {
 
@@ -173,7 +167,7 @@ color: black;
         /* width: 50%;   */
         text-align: left;
         padding-bottom: 0;
-        padding-top: 2px;
+        /* padding-top: 2px; */
         /* align-items: left; */
         /* flex-direction: column; */
         margin-left: 20px;
@@ -285,6 +279,7 @@ color: black;
     font-size: 23px;  /* Adjust this value as you prefer */
     padding-left: 0;
 }
+
 
 
 /* Navigation Styles */
