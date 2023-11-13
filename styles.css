@@ -469,7 +469,7 @@ footer {
     padding-top: 0;  /* Remove top padding */
     padding-left: 0;  /* Remove left padding */
     text-align: left;  /* Align text to the left */
-    vertical-align: top;  /* Align text to the top */
+    /* vertical-align: top;  Align text to the top */
     display: block;
     align-items: flex-start;
     justify-content: flex-start;
