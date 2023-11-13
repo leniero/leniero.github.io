@@ -585,6 +585,38 @@ line-height: 0;
   
 
 
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
+    display: none; /* initially hidden */
+    z-index: 1000;
+}
+
+.cookie-banner p {
+    margin: 0;
+    color: #333;
+}
+
+.cookie-banner a {
+    color: #0066ff;
+}
+
+.accept-cookies {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
 
 
 /* ... (other CSS code) ... */

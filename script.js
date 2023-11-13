@@ -17,3 +17,20 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
         alert('Email should not be empty.');
     }
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var cookieBanner = document.getElementById('cookie-banner');
+    var acceptCookies = document.getElementById('accept-cookies');
+
+    // Check if cookies were previously accepted
+    if (!localStorage.getItem('cookiesAccepted')) {
+        cookieBanner.style.display = 'block';
+    }
+
+    // Event listener for the 'Got it!' button
+    acceptCookies.addEventListener('click', function() {
+        localStorage.setItem('cookiesAccepted', 'true');
+        cookieBanner.style.display = 'none';
+    });
+});
