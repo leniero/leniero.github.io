@@ -49,12 +49,15 @@ display: flex;
 }
 
 /* Makes the second line go across the screen */
-.horizontal-line {
+/* .horizontal-line {
     border-top: 1px solid black; 
     width: 100%; 
     display: none; 
-    position: sticky;
-  }
+    position: static;
+  } */
+
+ 
+
 
 
   .header-left-right-wrapper {
@@ -88,9 +91,7 @@ color: black;
 
 
   @media (max-width: 1000px) { /* Show the line only when the screen width is less than or equal to 768px */
-    .horizontal-line {
-      display: flex;
-    }
+  
       .header-container {
         display: flex;
           justify-content: space-between;
@@ -101,11 +102,22 @@ color: black;
           width: 100%; 
           background-color: white;  
           z-index: 1000; 
-          border-top: 1px solid black;
+          border-top: 0px solid black;
           padding: 0;
           margin-bottom: 10px;
           white-space: nowrap;
           
+        }
+
+        .header-line {
+            display: block; 
+            height: 1px; 
+            background-color: black; 
+            width: 100vw;
+            top: 50%; 
+            left: 0; 
+            right: 0; 
+            position: absolute;
         }
 
         .header-left-right-wrapper {
@@ -130,18 +142,7 @@ color: black;
 
         }
 
-        @media (max-width: 1000px) {
-            .header-left-right-wrapper {
-              justify-content: space-between;
-            }
-            /* ... existing code ... */
-          }
-          
-          @media (max-width: 1000px) {
-            .header-back {
-                margin-left: auto;
-            }
-        }
+       
         
   
   
@@ -193,25 +194,11 @@ color: black;
     }
 
     .header-back {
-        width: 100%;  
-        text-align: right;
-        padding-bottom: 0;
-        /* padding-top: 2px; */
-        /* align-items: right; */
-        /* flex-direction: row; */
-/* flex-shrink: 0; */
-/* justify-content: space-between; */
-
-    /* padding-left: 100px;
-    text-decoration: none;
-    color: black; */
-
+        position: absolute;
+        right: 20px;
+        top: 0;
 
     }
-
-    /* .header-back a {
-        display: none;
-      } */
 
   }
   
@@ -705,6 +692,15 @@ filter: blur(15px);
       background: radial-gradient(circle, rgb(31, 233, 255), rgb(98, 0, 255));
     }
 }
+
+
+
+/* 
+.header-left, .header-right,.header-left-right-wrapper,.header-container,.header-back, #about, #contact {
+    border: 1px solid red; 
+    background-color: rgba(0, 0, 0, 0.1); 
+}  */
+
 
 
 /* 
