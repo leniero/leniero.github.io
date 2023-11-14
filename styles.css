@@ -584,7 +584,7 @@ line-height: 0;
 
   
 
-
+/* 
 .cookie-banner {
     position: fixed;
     bottom: 0;
@@ -593,28 +593,36 @@ line-height: 0;
     background-color: #f4f4f4;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.2);
-    display: none; /* initially hidden */
+
+
     z-index: 1000;
+    font-size: 14px; 
 }
 
-.cookie-banner p {
-    margin: 0;
-    color: #333;
+#cookie-banner .cookie-text .spacer {
+    display: inline-block;
+    margin-right: 10px; 
 }
 
-.cookie-banner a {
-    color: #0066ff;
-}
 
-.accept-cookies {
-    background-color: #008000;
-    color: white;
+
+
+#cookie-banner button {
+    background: none;
     border: none;
-    padding: 10px 20px;
-    margin-left: 20px;
+    color: red; 
     cursor: pointer;
+    padding: 5px; 
+    margin: -5px;
+    text-decoration: none; 
+    font-size: inherit;
 }
+
+#cookie-banner button:hover {
+    text-decoration: underline; 
+}
+
+*/
 
 
 
