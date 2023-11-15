@@ -1,7 +1,7 @@
 /* General Styles */
  @font-face {
         font-family: 'SFproDisplay';  /* A name to reference in CSS */
-        src: url('SFproDisplay.otf'); /* Path to your local font file */
+        src: url('../assets/SFproDisplay.otf'); /* Path to your local font file */
     }
 
 body {
