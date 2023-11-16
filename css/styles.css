@@ -413,7 +413,21 @@ footer {
     padding: 0;  /* Removes padding */
 }
 
+#about a {
+    flex: auto;
+     margin: 0;
+     padding: 0;
+     text-align: top;
+     color: black;  /* Make the text black */
+     text-decoration: none;  /* Remove any underline */
+     font-size: 23px;  /* Set the font size */
+ }
+ 
+ #about a:hover {
 
+    text-decoration: underline;
+    color: black;
+    }
 
 /* Contact Section Styles */
 #contact {
