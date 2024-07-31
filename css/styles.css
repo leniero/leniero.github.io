@@ -20,6 +20,10 @@ body {
         }
 }
 
+.center-text {
+    text-align: center;
+}
+
 img {
     max-width: 98%;
     height: auto;
