@@ -340,6 +340,7 @@ footer {
     padding: 0;  /* Add some padding to left and right */
     flex: 1;  /* This makes it take up all available space in a flexbox layout */
     flex-direction: row;
+    margin-bottom: 24px;
 }
 
 
@@ -377,6 +378,7 @@ footer {
        flex-direction: column-reverse;
        width: 100%;
        flex: 1;
+       margin-bottom: 24px;
    }
 
    .top-left {
